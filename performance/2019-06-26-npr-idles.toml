@@ -1,0 +1,8 @@
+url = "https://www.youtube.com/watch?v=wMehItNQKAA"
+title = "IDLES: NPR Music Tiny Desk Concert"
+date = "June 26, 2019"
+tracks = [
+    { name = "Never Fight A Man With A Perm" },
+    { name = "Mercedes Marxist" },
+    { name = "I'm Scum" },
+]
