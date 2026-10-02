@@ -1,5 +1,6 @@
 url = "https://www.youtube.com/watch?v=ferZnZ0_rSM"
-title = "Anderson .Paak & The Free Nationals: NPR Music Tiny Desk Concert"
+artist = "Anderson .Paak & The Free Nationals"
+title = "NPR Music Tiny Desk Concert"
 date = "2016-08-22"
 tracks = [
     { time = "00:00", name = "Come Down" },
