@@ -6,7 +6,8 @@ performance lies.
 
 ```
 url = "https://www.youtube.com/watch?v=jnm2Lf1TiB4"
-title = "Malcriada - Full Performance (Live on KEXP)'
+artist = "Malcriada"
+title = "Live on KEXP"
 date = "2026-06-17"
 tracks = [
     { time = "00:55", name = "Under" }
@@ -22,7 +23,8 @@ Files are TOML with this schema.
 
 Top level:
 - url: string
-- title: string, taken from the YouTube page
+- artist: string
+- title: string; from YouTube title but omit artist name or "full performance" annotations
 - date: string, in YYYY-MM-DD format
 - tracks: array of tracks
 

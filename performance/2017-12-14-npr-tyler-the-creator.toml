@@ -1,8 +1,9 @@
 url = "https://www.youtube.com/watch?v=N1w-hDiJ4dM"
-title = "Tyler, The Creator: NPR Music Tiny Desk Concert"
+artist = "Tyler, The Creator"
+title = "NPR Music Tiny Desk Concert"
 date = "2017-12-14"
 tracks = [
-    { time = "00:00", name = "Boredom" },
+    { time = "00:04", name = "Boredom" },
     { time = "07:00" },
     { time = "08:36", name = "See You Again" },
     { time = "12:23" },
