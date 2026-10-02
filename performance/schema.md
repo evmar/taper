@@ -15,7 +15,6 @@ tracks = [
     { start = "06:33", end = "10:15", name = "Acid Lover" },
     { start = "10:29", end = "14:37", name = "Miénteme" },
 ]
-]
 ```
 
 ## Schema
