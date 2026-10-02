@@ -24,8 +24,9 @@ type Performance struct {
 }
 
 type Track struct {
-	Time string `toml:"time"`
-	Name string `toml:"name"`
+	Start string `toml:"start"`
+	End   string `toml:"end"`
+	Name  string `toml:"name"`
 }
 
 func run() error {
@@ -94,8 +95,8 @@ func load(path string) (*Performance, error) {
 	}
 
 	for i, track := range perf.Tracks {
-		if track.Time == "" {
-			return nil, fmt.Errorf("track %d (%s) missing timestamp", i+1, track.Name)
+		if track.Start == "" {
+			return nil, fmt.Errorf("track %d (%q) missing start", i+1, track.Name)
 		}
 	}
 
@@ -126,10 +127,12 @@ func split(perf *Performance) error {
 
 		// input 0: audio, seeked
 		args := []string{
-			"-ss", track.Time,
+			"-ss", track.Start,
 		}
-		if i+1 < len(perf.Tracks) {
-			args = append(args, "-to", perf.Tracks[i+1].Time)
+		if track.End != "" {
+			args = append(args, "-to", track.End)
+		} else if i+1 < len(perf.Tracks) {
+			args = append(args, "-to", perf.Tracks[i+1].Start)
 		}
 		args = append(args, "-i", "out.opus")
 

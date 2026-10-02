@@ -3,10 +3,7 @@ artist = "IDLES"
 title = "NPR Music Tiny Desk Concert"
 date = "2019-06-26"
 tracks = [
-    { time = "00:00", name = "Never Fight A Man With A Perm" },
-    { time = "04:14" },
-    { time = "04:35", name = "Mercedes Marxist" },
-    { time = "08:12" },
-    { time = "08:46", name = "I'm Scum" },
-    { time = "12:47" },
+    { start = "00:00", end = "04:14", name = "Never Fight A Man With A Perm" },
+    { start = "04:35", end = "08:12", name = "Mercedes Marxist" },
+    { start = "08:46", end = "12:47", name = "I'm Scum" },
 ]

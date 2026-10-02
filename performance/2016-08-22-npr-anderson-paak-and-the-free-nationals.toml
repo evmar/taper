@@ -3,12 +3,8 @@ artist = "Anderson .Paak & The Free Nationals"
 title = "NPR Music Tiny Desk Concert"
 date = "2016-08-22"
 tracks = [
-    { time = "00:00", name = "Come Down" },
-    { time = "03:03" },
-    { time = "03:44", name = "Heart Don't Stand A Chance" },
-    { time = "06:49" },
-    { time = "07:33", name = "Put Me Thru" },
-    { time = "10:40" },
-    { time = "11:57", name = "Suede" },
-    { time = "15:05" },
+    { start = "00:00", end = "03:03", name = "Come Down" },
+    { start = "03:44", end = "06:49", name = "Heart Don't Stand A Chance" },
+    { start = "07:33", end = "10:40", name = "Put Me Thru" },
+    { start = "11:57", end = "15:05", name = "Suede" },
 ]

@@ -10,10 +10,11 @@ artist = "Malcriada"
 title = "Live on KEXP"
 date = "2026-06-17"
 tracks = [
-    { time = "00:55", name = "Under" }
-    { time = "03:37", name = "Six Seven" }
-    { time = "06:33", name = "Acid Lover" }
-    { time = "10:29", name = "Miénteme" }
+    { start = "00:55", end = "03:27", name = "Under" },
+    { start = "03:37", end = "06:27", name = "Six Seven" },
+    { start = "06:33", end = "10:15", name = "Acid Lover" },
+    { start = "10:29", end = "14:37", name = "Miénteme" },
+]
 ]
 ```
 
@@ -29,5 +30,6 @@ Top level:
 - tracks: array of tracks
 
 Tracks:
-- time, string, MM:SS of when the track starts (omit if unknown)
+- start, string, MM:SS of when the track starts (omit if unknown)
+- end, string, MM:SS of when the track ends
 - name, string, track name

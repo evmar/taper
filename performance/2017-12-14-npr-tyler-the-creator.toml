@@ -3,10 +3,7 @@ artist = "Tyler, The Creator"
 title = "NPR Music Tiny Desk Concert"
 date = "2017-12-14"
 tracks = [
-    { time = "00:04", name = "Boredom" },
-    { time = "07:00" },
-    { time = "08:36", name = "See You Again" },
-    { time = "12:23" },
-    { time = "13:12", name = "Glitter" },
-    { time = "19:00" },
+    { start = "00:04", end = "07:00", name = "Boredom" },
+    { start = "08:36", end = "12:23", name = "See You Again" },
+    { start = "13:12", end = "19:00", name = "Glitter" },
 ]
